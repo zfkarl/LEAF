@@ -108,9 +108,9 @@ def main():
     ])
 
     if args.dataset =='rafdb':
-        FER_TestlabelPath = "/home/zf/dataset/FaceData/RAF-DB/label/test.txt"
-        FER_TrainlabelPath = "/home/zf/dataset/FaceData/RAF-DB/label/train.txt"
-        FER_img_folder_path ="/home/zf/dataset/FaceData/RAF-DB/aligned/" 
+        FER_TestlabelPath = "/home/dataset/FaceData/RAF-DB/label/test.txt"
+        FER_TrainlabelPath = "/home/dataset/FaceData/RAF-DB/label/train.txt"
+        FER_img_folder_path ="/home/dataset/FaceData/RAF-DB/aligned/" 
         train_labeled_set, train_unlabeled_set, test_set = raf.get_raf(FER_img_folder_path,
             FER_TrainlabelPath,FER_TestlabelPath, args.n_labeled, transform_train=transform_train, transform_val=transform_val)
 
