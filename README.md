@@ -14,7 +14,7 @@ This is an example of how to run LEAF on the RAFDB dataset.
 - Torchvision==0.4.1
   
 ##### RAFDB 
-<pre>sh python main.py --dataset 'rafdb' --n_labeled 98 --epochs 20 </pre> 
+<pre>python main.py --dataset 'rafdb' --n_labeled 98 --epochs 20 </pre> 
 
 
 ## How To Cite LEAF
